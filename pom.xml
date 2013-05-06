@@ -11,8 +11,7 @@
     <name>myapp</name>
 
     <modules>
-        <module>plugin1</module>
-<module>plugin2</module>
+        <module>mgnl-fix</module>
 <module>maglev</module>
     </modules>
 

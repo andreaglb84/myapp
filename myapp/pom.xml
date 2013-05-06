@@ -47,16 +47,7 @@
         
     <dependency>
         <groupId>org.grails.plugins</groupId>
-        <artifactId>plugin1</artifactId>
-        <version>0.1</version>
-        <type>zip</type>
-        <scope>compile</scope>
-    </dependency>
-
-
-    <dependency>
-        <groupId>org.grails.plugins</groupId>
-        <artifactId>plugin2</artifactId>
+        <artifactId>mgnl-fix</artifactId>
         <version>0.1</version>
         <type>zip</type>
         <scope>compile</scope>
