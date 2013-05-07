@@ -22,7 +22,19 @@
     </properties>
 
     <dependencies>
-
+    
+    <dependency>
+        <groupId>net.sourceforge.openutils</groupId>
+         <artifactId>openutils-mgnlmedia</artifactId>
+         <version>5.0.1</version>
+         <exclusions>
+        <exclusion>
+          <groupId>org.freehep</groupId>
+          <artifactId>freehep-io</artifactId>
+        </exclusion>
+      </exclusions>
+     </dependency>
+ 
         <dependency>
             <groupId>org.grails</groupId>
             <artifactId>grails-dependencies</artifactId>
@@ -186,6 +198,11 @@
             <id>grails-plugins</id>
             <name>grails-plugins</name>
             <url>http://repo.grails.org/grails/plugins</url>
+        </repository>
+        <repository>
+            <id>openmindonline</id>
+            <name>openmindonline</name>
+            <url>http://repository.openmindonline.it</url>
         </repository>
     </repositories>
 
