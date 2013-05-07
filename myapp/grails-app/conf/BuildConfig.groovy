@@ -21,7 +21,7 @@ grails.project.dependency.resolution = {
     checksums true // Whether to verify checksums on resolve
     legacyResolve false // whether to do a secondary resolve on plugin installation, not advised and here for backwards compatibility
 
-    pom true
+    // pom true
 
     repositories {
         inherits true // Whether to inherit repository definitions from plugins
@@ -61,5 +61,11 @@ grails.project.dependency.resolution = {
         runtime ":database-migration:1.3.2"
 
         compile ':cache:1.0.1'
+		
+		compile ':maglev:0.3.6-SNAPSHOT'
+		compile ':mgnl-fix:0.1-SNAPSHOT'
     }
 }
+
+grails.plugin.location.'maglev' = "../maglev"
+grails.plugin.location.'mgnl-fix' = "../mgnl-fix"

@@ -5,14 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>it.openmindonline</groupId>
-        <artifactId>myapp</artifactId>
-        <version>0.1</version>
+        <artifactId>myapp-parent</artifactId>
+        <version>0.1-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
     <groupId>it.openmindonline</groupId>
     <artifactId>myapp</artifactId>
     <packaging>grails-app</packaging>
-    <version>0.1</version>
+    <version>0.1-SNAPSHOT</version>
 
     <name>myapp</name>
     <description>0.1</description>
@@ -48,7 +48,7 @@
     <dependency>
         <groupId>org.grails.plugins</groupId>
         <artifactId>mgnl-fix</artifactId>
-        <version>0.1</version>
+        <version>0.1-SNAPSHOT</version>
         <type>zip</type>
         <scope>compile</scope>
     </dependency>
@@ -57,7 +57,7 @@
     <dependency>
         <groupId>org.grails.plugins</groupId>
         <artifactId>maglev</artifactId>
-        <version>0.3.5-SNAPSHOT</version>
+        <version>0.3.6-SNAPSHOT</version>
         <type>zip</type>
         <scope>compile</scope>
     </dependency>

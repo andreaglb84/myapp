@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>it.openmindonline</groupId>
-        <artifactId>myapp</artifactId>
-        <version>0.1</version>
+        <artifactId>myapp-parent</artifactId>
+        <version>0.1-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
     <groupId>org.grails.plugins</groupId>
     <artifactId>mgnl-fix</artifactId>
-    <version>0.1</version>
+    <version>0.1-SNAPSHOT</version>
     <packaging>grails-plugin</packaging>
 
 
@@ -43,6 +43,13 @@
             <version>${grails.version}</version>
             <scope>test</scope>
         </dependency>
+        
+        <dependency>
+            <groupId>net.sourceforge.openutils</groupId>
+            <artifactId>openutils-mgnlmedia</artifactId>
+            <version>5.0.1</version>
+        </dependency>
+        
     </dependencies>
 
     <build>
