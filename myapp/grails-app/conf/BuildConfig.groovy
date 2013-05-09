@@ -48,8 +48,8 @@ grails.project.dependency.resolution = {
 
     plugins {
         runtime ":hibernate:$grailsVersion"
-        //runtime ":jquery:1.8.3"
-        //runtime ":resources:1.1.6"
+        runtime ":jquery:1.8.3"
+        runtime ":resources:1.1.6"
 
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0"
@@ -62,10 +62,10 @@ grails.project.dependency.resolution = {
 
         compile ':cache:1.0.1'
 		
+		compile ':mgnl-fix:0.1-SNAPSHOT'
 		compile ':maglev:0.3.6-SNAPSHOT'
-		//compile ':mgnl-fix:0.1-SNAPSHOT'
     }
 }
 
-grails.plugin.location.'maglev' = "../maglev"
-//grails.plugin.location.'mgnl-fix' = "../mgnl-fix"
+/*grails.plugin.location.'mgnl-fix' = "../mgnl-fix"
+grails.plugin.location.'maglev' = "../maglev"*/
