@@ -4,6 +4,9 @@ grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
 grails.project.target.level = 1.6
 grails.project.source.level = 1.6
+
+//grails.project.fork.run= [maxMemory:1024, minMemory:64, debug:true]
+
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 
 // uncomment (and adjust settings) to fork the JVM to isolate classpaths
@@ -62,8 +65,8 @@ grails.project.dependency.resolution = {
 
         compile ':cache:1.0.1'
 		
-		compile ':mgnl-fix:0.1-SNAPSHOT'
-		compile ':maglev:0.3.6-SNAPSHOT'
+//		compile ':mgnl-fix:0.1-SNAPSHOT'
+//		compile ':maglev:0.3.6-SNAPSHOT'
     }
 }
 

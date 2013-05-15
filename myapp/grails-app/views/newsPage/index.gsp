@@ -6,27 +6,23 @@
 
 <g:set var="cmsfn" value="${info.magnolia.templating.jsp.cmsfn.JspTemplatingFunction}" scope="request" />
 
-<%@ taglib uri="blossom-taglib" prefix="blossom" %>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">
 <head>
-    <meta name="layout" content="main"/>
-    <title>${content?.title ?: "ingen titel"}</title>
+    <meta name="layout" content="base"/>
+    <title>${content?.title ?: ""}</title>
     <cms:init/>
 </head>
 
 <body>
 
 <div class="page-header">
-    <h1>${content?.title ?: "ingen titel"}</h1>
+    <h1>${content?.title ?: ""}</h1>
 </div>
 
 <div class="row">
-    <cms:area name="mainArea"/>
-    <cms:area name="rightColumn"/>
+    <cms:area name="areaNewsBody"/>
 </div>
 
 
 </body>
 </html>
-
