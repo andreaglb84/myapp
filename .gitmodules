@@ -1,3 +1,6 @@
 [submodule "maglev"]
 	path = maglev
 	url = git://github.com/openmindlab/maglev.git
+[submodule "myapp/web-app/bootstrap-sources"]
+	path = myapp/web-app/bootstrap-sources
+	url = git://github.com/twitter/bootstrap.git
